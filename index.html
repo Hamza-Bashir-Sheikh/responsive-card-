@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #0b1522;
+      }
+      h1 {
+        font-size: 50px;
+        color: #fff;
+      }
+      .content {
+        padding: 8% 0% 0% 1%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .gallery {
+        display: flex;
+        width: 30%;
+        height: 250px;
+        gap: 2px;
+      }
+      .gallery > img {
+        width: 15%;
+        height: 250px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        border: 2px solid white;
+        border-radius: 5px;
+        transition: all 0.5s ease;
+      }
+      .gallery > img:hover {
+        width: 100%;
+        scale: 1.1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <h1>"STEM" Website Project Team Members:</h1>
+      <div class="gallery">
+        <img src="img/daniyal.png" alt="image" />
+        <img src="img/Umer.png" alt="image" />
+        <img src="img/IMG_20201031_015324_465.jpg" alt="image" />
+        <img src="img/usama.png" alt="image" />
+      </div>
+    </div>
+  </body>
+</html>
